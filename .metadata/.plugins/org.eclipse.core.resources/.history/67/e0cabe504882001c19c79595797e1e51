@@ -1,0 +1,12 @@
+package com.healthasyst.methods;
+
+public class Conee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int r= 12;
+		System.out.println(Math.pow(r, 2));
+
+	}
+
+}

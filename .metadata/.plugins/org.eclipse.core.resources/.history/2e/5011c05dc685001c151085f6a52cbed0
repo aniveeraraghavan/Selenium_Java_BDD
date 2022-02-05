@@ -1,0 +1,18 @@
+package com.ha.seleniumassignments;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class salesForceSiteTest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe" );
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.salesforce.com/in/form/signup/freetrial-sales/");
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+	}
+
+}

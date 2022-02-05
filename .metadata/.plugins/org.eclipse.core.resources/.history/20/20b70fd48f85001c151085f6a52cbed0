@@ -1,0 +1,26 @@
+package com.ha.shoppingcart2;
+
+class Item {
+
+	private int id;
+	private String description;
+	private int quantity;
+	private double price;
+	
+	
+	public Item(String desc) {
+	
+		System.out.println("Description " );
+	}
+	public Item (int quantity) {
+		System.out.println("Quantity " );
+		
+	}
+	public Item(double price) {
+		System.out.println("Price " );
+		
+	}
+	
+	
+	
+}

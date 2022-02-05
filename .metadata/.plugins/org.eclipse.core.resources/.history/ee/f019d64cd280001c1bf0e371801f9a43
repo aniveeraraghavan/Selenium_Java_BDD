@@ -1,0 +1,14 @@
+package com.healthasyst.logics;
+
+public class LogicDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num= 10;
+if(num>0)
+{
+	System.out.println("given number is positive" +num);
+}
+	}
+
+}

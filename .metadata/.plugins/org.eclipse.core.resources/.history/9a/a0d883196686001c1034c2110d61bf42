@@ -1,0 +1,60 @@
+package com.healthasyst.stepdefinition;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
+public class LoginStep {
+
+	WebDriver driver;
+	
+	
+	@Given("I have a browser")
+	public void i_have_a_browser() {
+		//alternate  option to set the web driver automatically instead of set property
+		WebDriverManager.chromedriver().setup();
+		
+		//System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");	
+	driver = new ChromeDriver();
+	driver.manage().window().maximize();
+	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	  
+	 
+	 
+	 driver.get("https://demo.openemr.io/b/openemr");
+	
+	}
+	@When("I enter username as {string}")
+	public void i_enter_username_as(String username) {
+	    driver.findElement(By.id("authUser")).sendKeys(username);
+	}
+	@When("I enter password as {string}")
+	public void i_enter_password_as(String password) {
+	    
+		driver.findElement(By.id("clearPass")).sendKeys(password);
+	}
+	@When("I select  language as {string}")
+	public void i_select_language_as(String string) {
+	   
+	    
+	}
+	@When("I click on Login")
+	public void i_click_on_login() {
+	  
+	    
+	}
+	@Then("I shoudl get access to OpenEMR with title as {string}")
+	public void i_shoudl_get_access_to_open_emr_with_title_as(String string) {
+	    
+		 System.out.println("Then");
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.ha.shoppingcart2;
+
+public class Shirt extends Item {
+	
+private char size;
+	private char colorCode;
+	
+ public Shirt (String description, int quantity, double prize, char size, char colorCode)	{
+	 super(description,quantity,price);
+	 this.size;
+	 this.colorCode;
+	 
+	 
+	 public void display() {
+			System.out.println(" \n -----------  Printing Shirt Details ----------- \n");
+			System.out.println("Shirt Description : " + super.getDescription());
+			System.out.println("Shirt Size        : " + this.size);
+			System.out.println("Shirt Color Code  : " + this.colorCode);
+			System.out.println("Shirt Quantity    : " + super.getQuantity());
+			System.out.println("Shirt Price       : " + super.getPrice());
+			System.out.println("\n ----------------------------------------------- \n ");
+		}
+	 
+	}
+	
+}
+
+	

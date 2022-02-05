@@ -1,0 +1,42 @@
+package com.ha.base;
+
+public class Student extends Person {
+	
+	private int stuRollNo;
+	private double stuPercentage;
+	private String stuCourseCode;
+	
+	public static int counter = 101;
+	
+	public Student() {
+		setStuRollNo(counter);
+			counter=counter+1;
+		}
+
+	public int getStuRollNo() {
+		return stuRollNo;
+	}
+
+	public void setStuRollNo(int stuRollNo) {
+		this.stuRollNo = stuRollNo;
+	}
+
+	public double getStuPercentage() {
+		return stuPercentage;
+	}
+
+	public void setStuPercentage(double stuPercentage) {
+		this.stuPercentage = stuPercentage;
+	}
+
+	public String getStuCourseCode() {
+		return stuCourseCode;
+	}
+
+	public void setStuCourseCode(String stuCourseCode) {
+		this.stuCourseCode = stuCourseCode;
+	}
+	
+	
+
+}

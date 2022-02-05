@@ -1,0 +1,17 @@
+package com.ha.shoppingcart2;
+
+public class shoppingcart extends Shirt{
+
+	 
+	  public shoppingcart(String description, int quantity, double prize, char size, char colorCode) {
+		super(description, quantity, prize, size, colorCode);
+		
+	}
+
+	public static void main(String[] args) { // TODO Auto-generated method stub
+	  Shirt s1 = new Shirt("Formal", 5, 2000.00,'s', 'M');
+	  s1.display();
+	  
+	  }
+	 
+}

@@ -1,0 +1,17 @@
+package com.ha.base;
+
+public class Person {
+	private  String personName;
+	private int personCell;
+	private String personEmailId;
+	private String personAddress;
+	private static String schoolName;
+	private static String schoolAddress;
+	
+	Person person = new Person();
+	Person.personName = "John";
+	
+	
+	
+
+}

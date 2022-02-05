@@ -1,0 +1,12 @@
+package com.healthasyst.methods;
+
+public class Area {
+
+		
+		public static double areaOfTriangle(double b, double h) {
+
+			double trianglearea = (b * h) / 2;
+			return trianglearea;
+		}
+	}
+

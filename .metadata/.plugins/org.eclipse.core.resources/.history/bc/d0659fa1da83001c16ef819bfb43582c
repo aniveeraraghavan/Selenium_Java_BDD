@@ -1,0 +1,16 @@
+package com.ha.employee;
+
+import java.io.Console;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 1;
+		String j = "2";
+		Console.WriteLine( i + j);
+		
+
+	}
+
+}

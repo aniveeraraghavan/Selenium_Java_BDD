@@ -1,0 +1,30 @@
+@login
+Feature: Login
+  In order to  maintain the medical records
+  As a user
+  I would like to access the Open EMR
+
+  Background: Given I have a browser
+
+  @valid
+  Scenario: Valid Credential
+    # Given I have a browser --given can be removed as we have added background
+    When I enter username as 'admin'
+    And I enter password as 'pass'
+    And I select  language as 'English (Indian)'
+    And I click on Login
+    Then I shoudl get access to OpenEMR with title as 'OpenEMR'
+
+  @invalid @high
+  Scenario Outline: Invalid Credential
+    # Given I have a browser --given can be removed as we have added background
+    When I enter username as '<username>'
+    And I enter password as "<password>"
+    And I select  language as '<language>'
+    And I click on Login
+    Then I shoudl get 'Invalid username or password'
+
+    Examples: 
+      | username  | password   | language         |
+      | admin     | passss     | English (Indian) |
+      | physician | physicians | Dutch            |

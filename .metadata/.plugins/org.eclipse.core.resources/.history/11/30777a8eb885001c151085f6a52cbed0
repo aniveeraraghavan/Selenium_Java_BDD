@@ -1,0 +1,14 @@
+package com.ha.shoppingcart2;
+
+public class shoppingcart{
+
+	/*
+	 * public shoppingcart(double price) { super(price); // TODO Auto-generated
+	 * constructor stub }
+	 * 
+	 * public static void main(String[] args) { // TODO Auto-generated method stub
+	 * Shirt s1 = new Shirt("Formal" ,55, 1230, 'M', 'R' );
+	 * 
+	 * }
+	 */
+}

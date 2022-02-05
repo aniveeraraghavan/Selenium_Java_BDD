@@ -1,0 +1,37 @@
+package com.healthasyst.oops;
+
+public class Student {
+
+	private int studentId; // by using private we are protecting the variable and accessing this variable
+							// using the method.
+	// warping up the variable so that outsiders cannot access it- this is called
+	// encapsulation
+	private String studentName;
+	private String studentEmail;
+	private double studentPercentage;
+	private static String schoolName;
+
+	public static int counter = 1001;
+
+	public Student() // here we are using the constructor
+	{
+		studentId = counter;
+		counter = counter + 1;
+
+	}
+	public double getstudentPercentage() {
+		return this.studentPercentage;
+
+	}
+
+	public void setStudentPercentage(double studentPercentage) {
+		if (studentPercentage >= 0 && studentPercentage <= 100) {
+			this.studentPercentage = studentPercentage;
+		} else {
+			System.out.println("Invalid %!");
+		}
+	}
+
+	
+
+}

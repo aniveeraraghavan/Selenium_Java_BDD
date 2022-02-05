@@ -1,0 +1,21 @@
+package com.healthasyst.assignments;
+
+public class Area {
+	
+	
+	public static int areOfSquare (int a) {
+		
+		int area = (a*a);
+		return area;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 40;
+		Area.areOfSquare(a);
+		System.out.println("Area of square:" +a);
+
+	}
+
+}

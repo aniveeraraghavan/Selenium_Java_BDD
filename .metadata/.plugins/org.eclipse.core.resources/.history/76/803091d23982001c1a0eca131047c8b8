@@ -1,0 +1,18 @@
+package com.HA.volume;
+
+public class Voume {
+	
+	public static double volumeOfSphere(double r) {
+		
+		double r= 12;
+		double sphere;
+		return sphere = 4/3* Math.PI * Math.pow(r, r);
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

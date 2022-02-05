@@ -1,0 +1,43 @@
+package com.ha.shoppingcart;
+
+public class Item {
+	
+	private int id;
+	private String description;
+	private int quantity;
+	private double price;
+	
+	
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description){ 
+		this.description = description;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		if(quantity>0) {
+		this.quantity = quantity;
+	}else {
+		System.out.println("Invalid quantity");
+	}
+	
+		
+				
+public void printDetail() {
+					System.out.println(i1.getDescription());
+					System.out.println(i1.getQuantity());
+					System.out.println(i2.getDescription());
+					System.out.println(i2.getQuantity());
+					System.out.println(i3.getDescription());
+					System.out.println(i3.getQuantity());
+				}
+		
+		
+		
+
+}
+	
+}

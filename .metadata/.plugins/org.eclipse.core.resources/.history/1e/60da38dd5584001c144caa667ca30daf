@@ -1,0 +1,24 @@
+package com.healthasyst.string;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+	
+		String color = "red";
+		color = "blue";
+		color = "black";
+		String color2 = "brown";
+		color2 = "black";
+		
+		System.out.println(color);
+		
+  if(color.equals(color2))
+		{
+	System.out.println("both the colors are same");
+
+}else 
+{ System.out.println("colors are different");
+
+	}
+}
+}

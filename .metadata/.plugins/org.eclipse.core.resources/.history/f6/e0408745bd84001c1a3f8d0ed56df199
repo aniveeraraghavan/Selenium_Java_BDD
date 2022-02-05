@@ -1,0 +1,31 @@
+package com.ha.openemr;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class MessageTest {
+	
+ public static void main(String[] args) {
+	 System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
+	 //2 back slashes are needed above.then only java will consider as directory
+	 WebDriver driver = new ChromeDriver();
+	 driver.get("https://demo.openemr.io/b/openemr");
+	 
+//	 WebElement ele = driver driver.findElement(By.id ("authUser"));
+//	 ele.sendKeys("admin");
+	 Thread.sleep(5000);
+	driver.findElement(By.id("authUser")).sendKeys("admin");
+	driver.findElement(By.id("clearPass")).sendKeys("pass");
+	//driver.findElement(By.);
+	
+	 
+	 
+	 
+	 
+	 
+	 
+	
+}
+}

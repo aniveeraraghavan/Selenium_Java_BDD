@@ -1,0 +1,22 @@
+package com.ha.runner;
+
+import com.ha.base.Student;
+
+public class AllDetailsOfSchool {
+
+	public static void main(String[] args) {
+		
+		Student student1 = new Student();
+		student1.setPersonName("John Wick");
+		
+		//System.out.println(student1.getPersonName());
+		
+		student1.setPersonCell(123044444L);
+		student1.setStuRollNo(1000); ;
+		student1.setStuPercentage(34.83);
+		
+		
+		
+	}
+
+}

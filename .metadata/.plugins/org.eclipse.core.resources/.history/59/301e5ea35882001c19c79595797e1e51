@@ -1,0 +1,22 @@
+package com.ha.employee;
+
+public class Employee {
+	public int emplID;
+	public String empName;
+	public double empSal;
+	public static String CompanyName;	
+	
+	//print employee details
+	
+	public static void printEmployeeDetail (Employee emp) {
+		System.out.println(emp.emplID);
+		System.out.println(emp.empName);
+		System.out.println(emp.empSal);
+		System.out.println(Employee.CompanyName);
+	}
+	
+	
+	
+	
+	
+}

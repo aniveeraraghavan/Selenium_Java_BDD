@@ -1,0 +1,36 @@
+package com.HA.volume;
+
+public class Voume {
+
+	public double volumeOfSphere(double r) {
+
+		double sphere;
+		return sphere = 4 / 3 * Math.PI * Math.pow(r, r);
+
+	}
+
+	// VOLUME OF CYCLINDER
+	public double volumeOfCyclinder(double ra) {
+
+		double cyclinder;
+		int h = 12;
+		return cyclinder = Math.PI * Math.pow(ra, ra) * h;
+
+	}
+
+	// volume of cuboid
+	public double volumeOfCuboid(double w, double l, double h) {
+
+		double cuboid;
+		return cuboid = (w * l * h);
+	}
+	// volume of cube
+
+	public void volumeOfCube(long r, long h) {
+
+		double cube = 0.5 * Math.PI * Math.pow(r, r) * h;
+		System.out.println("Volume of Cube is" + cube);
+
+	}
+
+}

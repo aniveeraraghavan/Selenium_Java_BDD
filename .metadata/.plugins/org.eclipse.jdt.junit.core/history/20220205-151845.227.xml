@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="OpenEMRApplication" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.healthasyst.runner.Runner" time="13.783">
+    <testsuite name="Login" time="13.783">
+      <testcase name="Valid Credential" classname="Login" time="13.783">
+        <failure>
+          <expected>testtestOpenEMR</expected>
+          <actual>OpenEMR</actual>
+          org.junit.ComparisonFailure: expected:&lt;[testtest]OpenEMR&gt; but was:&lt;[]OpenEMR&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at com.healthasyst.stepdefinition.LoginStep.i_shoudl_get_access_to_open_emr_with_title_as(LoginStep.java:61)&#13;
+	at ✽.I shoudl get access to OpenEMR with title as 'testtestOpenEMR'(file:///D:/Java_Training_Workspace/OpenEMRApplication/src/test/resources/Feature/login.feature:12)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

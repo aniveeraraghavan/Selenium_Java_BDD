@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="OpenEMRApplication" tests="1" started="0" failures="0" errors="0" ignored="0">
+  <testcase name="com.healthasyst.runner.Runner" classname="com.healthasyst.runner.Runner" incomplete="true"/>
+</testrun>

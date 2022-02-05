@@ -1,0 +1,37 @@
+package com.ha.base;
+
+public class Person {
+	private  String personName;
+	private int personCell;
+	private String personEmailId;
+	private String personAddress;
+	private static String schoolName;
+	private static String schoolAddress;
+//getting person name
+	public String getPersonName() {
+		return personName;
+	}
+	public void setPersonName(String personName) {
+		this.personName = personName;
+	}
+//getting person cell phone number
+	public int getPersonCell() {
+		return personCell;
+	}
+	public void setPersonCell(int personCell) {
+		
+		if(String.valueOf(personCell).length() ==10)
+//converting int to string and checking the characters has 10 digits or not 
+			{
+			this.personCell = personCell;
+		}else {
+		System.out.println("Invalid cell number!");
+	}
+	
+}
+}
+	 
+	
+	
+
+

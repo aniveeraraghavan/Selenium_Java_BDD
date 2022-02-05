@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="OpenEMRApplication" tests="4" started="4" failures="0" errors="1" ignored="0">
+  <testsuite name="com.healthasyst.runner.Runner" time="0.17">
+    <testsuite name="Patient" time="0.132">
+      <testcase name="Add Patient" classname="Patient" time="0.132">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I click on Patinet/Client' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("I click on Patinet\\/Client")
+public void i_click_on_patinet_client() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on Patient")
+public void i_click_on_patient() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on Add New Patient")
+public void i_click_on_add_new_patient() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter fill the form")
+public void i_enter_fill_the_form(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on create new patient")
+public void i_click_on_create_new_patient() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Login" time="0.029">
+      <testcase name="Valid Credential" classname="Login" time="0.012"/>
+      <testcase name="Invalid Credential #1" classname="Login" time="0.011"/>
+      <testcase name="Invalid Credential #2" classname="Login" time="0.006"/>
+    </testsuite>
+  </testsuite>
+</testrun>

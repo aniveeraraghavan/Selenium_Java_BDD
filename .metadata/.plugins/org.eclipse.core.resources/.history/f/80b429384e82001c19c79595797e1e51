@@ -1,0 +1,18 @@
+package com.ha.variables;
+
+public class VariableDemo {
+
+	public static int aS= 10;//static variable or class variable
+	public int aNS= 20;
+	public int bNS = 30;//non static variable or instance variable
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(aS);
+		VariableDemo obj1 = new VariableDemo();
+		System.out.println(obj1.aNS);
+		System.out.println(obj1.bNS);
+
+	}
+
+}

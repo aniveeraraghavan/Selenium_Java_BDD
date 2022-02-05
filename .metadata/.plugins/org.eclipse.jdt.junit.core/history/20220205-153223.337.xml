@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="OpenEMRApplication" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="com.healthasyst.runner.Runner" time="0.129">
+    <testsuite name="Login" time="0.129">
+      <testcase name="Valid Credential" classname="Login" time="0.087"/>
+      <testcase name="Invalid Credential" classname="Login" time="0.042">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I shoudl get 'Invalid username or password'' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I shoudl get {string}")
+public void i_shoudl_get(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

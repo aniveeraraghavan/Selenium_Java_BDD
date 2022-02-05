@@ -1,0 +1,38 @@
+package com.ha.inheritance;
+
+class Parent {
+	public int pAge;	
+	public Parent()
+	//constructor of thr parent class.In real time data will not be hardcoded only in constructor we will load the data
+	{
+		System.out.println("Parent class!");
+		int pAge = 60;
+	}
+
+	public void parentStyle() 
+	{
+
+		System.out.println("Parent Style");
+	}
+}
+
+class Child extends Parent {
+	public int cAge = 20;
+
+	public void childStyle() {
+
+		System.out.println("Child Style");
+	}
+}
+
+public class InheritanceTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Child c1 = new Child();
+		System.out.println(c1.cAge);
+		System.out.println(c1.pAge);
+
+	}
+
+}

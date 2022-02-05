@@ -1,0 +1,16 @@
+package com.healthasyst.datatypes;
+
+public class DatatypesDemo {
+
+   public static void main(String[] args) {
+	 System.out.println();
+	   
+	   int radius = 9;
+		 float pi= 3.14f;
+			 float  area =(pi * radius * radius);
+			 System.out.println (area);
+					 
+	   
+	   
+}
+}

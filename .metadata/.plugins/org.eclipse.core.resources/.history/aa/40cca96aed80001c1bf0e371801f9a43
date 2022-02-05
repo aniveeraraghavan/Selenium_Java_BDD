@@ -1,0 +1,21 @@
+package com.healthasyst.methods;
+
+public class MethodsDemo {
+	
+	public static double areaOfCircle(int r)
+	{
+		double area= 3.14 * r* r;
+				return area;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		int radius= 50;
+				double result = MethodsDemo.areaOfCircle(20);
+		System.out.println(result);
+	  result = MethodsDemo.areaOfCircle(radius);
+	System.out.println(result);
+		
+	}
+}

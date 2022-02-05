@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.ha.variables.VariableDemo"><rhs name\="com.ha.variables.VariableDemo"/></lhs><lhs name\="com.ha.employee.Employee"><rhs name\="com.ha.employee.Employee"/></lhs><lhs name\="com.ha.football.Player"><rhs name\="com.ha.football.Player"/></lhs><lhs name\="com.ha.football.Team"><rhs name\="com.ha.football.Team"/></lhs><lhs name\="com.healthasyst.oops.Student"><rhs name\="com.healthasyst.oops.Student"/></lhs><lhs name\="com.ha.base.Professor"><rhs name\="com.ha.base.Professor"/></lhs><lhs name\="com.ha.methodoverloading.Calculator"><rhs name\="com.ha.methodoverloading.Calculator"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="org.openqa.selenium.By"><rhs name\="org.openqa.selenium.By$ById"/></lhs><lhs name\="java.time.temporal.TemporalAmount"><rhs name\="java.time.Duration"/></lhs><lhs name\="org.openqa.selenium.support.ui.ISelect"><rhs name\="org.openqa.selenium.support.ui.Select"/></lhs><lhs name\="org.openqa.selenium.WrapsElement"><rhs name\="org.openqa.selenium.support.ui.Select"/></lhs><lhs name\="org.openqa.selenium.support.ui.Select"><rhs name\="org.openqa.selenium.support.ui.Select"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
